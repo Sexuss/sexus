@@ -7,6 +7,11 @@ import Banner from "../components/banner"
 import LatestBlogs from "../components/latestBlog"
 import Countdown from "../components/countdown"
 import StarRatingComponent from 'react-star-rating-component';
+import Header from "../components/Header/Header.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+import HeaderLinks from "../components/Header/HeaderLinks.jsx";
+import withStyles from "@material-ui/core/styles/withStyles";
+import landingPageStyle from "../assets/jss/material-kit-react/views/landingPage.jsx";
 
 class IndexPost extends React.Component {
   constructor(props) {
@@ -65,21 +70,33 @@ class IndexPost extends React.Component {
   }
 }
 
-const IndexPage = data => (
-
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <Banner BannerData={data.data.allContentfulHeaderBanner.edges} />
-    <LatestBlogs data={data.data.allContentfulBlogs} />
-    <div className="container">
-      <div className="text-center"><h2 className="with-underline">Latest Items</h2></div>
-      <IndexPost data={data}></IndexPost>
+const IndexPage = data => {
+  // const {classes} = this.props;
+    console.log(data)
+    return <div>
+        <Header
+            color="transparent"
+            routes={[]}
+            brand="Sexus"
+            rightLinks={<HeaderLinks/>}
+            fixed
+            changeColorOnScroll={{
+                height: 400,
+                color: "white"
+            }}
+        />
+        <SEO title="Home" keywords={[`gatsby`, `application`, `react`]}/>
+        <Banner BannerData={data.data.allContentfulHeaderBanner.edges}/>
+        <div className="container" >
+              <LatestBlogs data={data.data.allContentfulBlogs}/>
+              <div className="text-center"><h2 className="with-underline">Latest Items</h2></div>
+              <IndexPost data={data}></IndexPost>
+        </div>
+        <Footer />
     </div>
-    <Countdown data={data.data.contentfulDealCountDown} />
-  </Layout>
-)
+}
 
-export default IndexPage
+export default withStyles(landingPageStyle)(IndexPage)
 
 export const query = graphql`
   query AboutQuery {

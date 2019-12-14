@@ -1,0 +1,168 @@
+[
+  {
+    "path": "Nathalie_Pardo",
+    "name": "Nathalie Pardo",
+    "work": "thérapeute en Médecine Traditionnelle Chinoise",
+    "smallText": "Attirée depuis toujours par le bien-être et la santé, c'est par le biais du Taï Chi et du Qi Gong que j'ai découvert la Médecine Traditionnelle Chinoise. Convaincue des bienfaits de celle-ci, j'ai décidé de m’y consacrer pleinement en entamant un cycle de formation à l'Institut Shao Yang à Lyon.",
+    "image": "Nathalie_Pardo",
+    "phone": "06.89.59.83.22",
+    "email": "",
+    "tariffs": [
+      {
+        "name": "Première séance",
+        "duration": "(1h30 – 2h00)",
+        "price": 45,
+        "description": "A cette occasion nous évaluerons votre état de santé général à l’aide d’un ensemble de questions relatives à vos habitudes de vie et à votre état de santé global, d’une prise de pouls et d’une observation de la langue, pour détecter les éventuels déséquilibres énergétiques à régulariser."
+      },
+      {
+        "name": "Suivi",
+        "duration": "(30min – 1h00)",
+        "price": 40,
+        "description": ""
+      }
+    ],
+    "slots": [
+      {
+        "name": "Sant’équilibre",
+        "slots": ["Du lundi au jeudi de 08h à 19h00"]
+      },
+      {
+        "name": "Domicile",
+        "slots": ["Vendredi et samedi de 09h00 à 18h00. Dans un rayon de 30km"]
+      }
+    ],
+    "description": [
+      {
+        "title": "La Médecine traditionnelle chinoise est pratiquée depuis près de 4000 ans.",
+        "text": "<p>Elle vise à rééquilibrer le Yin et le Yang en chacun de nous. Pour cela, elle se sert des cinq piliers qui la constituent :</p> <ul><li>Acupuncture</li><li>Massage Tuina</li><li>Pharmacopée</li><li>Diététique</li><li>Qi Gong</li></ul><p>Pour la MTC, les maladies proviennent de déséquilibres énergétiques et/ou de facteurs extérieurs. Pour rééquilibrer l’énergie « Qi », le praticien utilise les points d’acupuncture, situés sur les méridiens, qui sont les voies de circulation du Qi. Chaque point a ses fonctions particulières et à travers eux, le Yin et le Yang peuvent s’harmoniser et se rééquilibrer.</p><p> Le Tuina est la technique manuelle thérapeutique employée dans toute la Chine, soit pour entretenir la santé, soit utilisée en traitement seul ou en complément. C'est un élément important de la Médecine Chinoise au même titre que l'acupuncture, la pharmacopée ou la diététique, qui ont des principes fondamentaux identiques.</p><p> La médecine chinoise répond à des problématiques tant physiques que psychiques.</p>"
+      },
+      {
+        "title": "Mon parcours",
+        "text": "<p>Attirée depuis toujours par le bien-être et la santé, c'est par le biais du Taï Chi et du Qi Gong que j'ai découvert la Médecine Traditionnelle Chinoise.</p><p> Convaincue des bienfaits de celle-ci, j'ai décidé de m’y consacrer pleinement en entamant un cycle de formation à l'Institut Shao Yang à Lyon (<a href='http://www.shaoyang.fr' target='_blank'>www.shaoyang.fr</a>).</p> <p>J'en sors diplômée en 2015, et, pour approfondir mes connaissances, j'effectue un stage à l’Hôpital Populaire de Shanghaï la même année.</p><p> J’ai ensuite étudié le Tuina, le massage thérapeutique de la Médecine Chinoise avec Audrey Collot, formatrice émérite à Lyon (<a href='http://www.tuina.fr' target='_blank'>www.tuina.fr</a>).</p><p> Ma pratique s'inspire d'une tradition vieille de plus de 4000 ans qui à pour but de se maintenir en équilibre entre le Yin et le Yang pour s'épanouir sur la Terre et s'élever vers le Ciel.</p>"
+      },
+      {
+        "title": "Tuina en entreprise",
+        "text": "<p>Au travail, les efforts intenses ou répétés, les mauvaises postures et le stress causent trop souvent des douleurs récurrentes, une efficacité moindre et une baisse de moral.</p><p>Je propose de mettre en place au sein de votre entreprise des <b>séances de Tuina de 15 minutes par personne</b>. Les zones concernées sont le haut du dos, les trapèzes, la nuque, la tête et les bras. Ce type de massage thérapeutique s'effectue sur une personne habillée de vêtements confortables, sur chaise.</p><p><b>Simple à mettre en place,</b> le Tuina répond à des problématiques assez courantes au travail. Véritable outil de prévention, ces séances visent à apaiser les douleurs, prévenir leurs réapparitions et apaiser et redynamiser l'esprit.</p><p>Grâce à ce temps de respiration, vos collaborateurs seront en meilleure forme et se sentiront pris en compte au sein de votre entreprise. La bonne cohésion de votre équipe sera favorisée par un <b>environnement de travail plus sain.</b></p><p><small>La consultation d’un praticien en médecine traditionnelle chinoise ne saurait remplacer le suivi médical habituel ou en cours, ni se substituer aux traitements en cours. Seul votre médecin peut décider de l’arrêt ou de la modification d’un traitement médical.</small></p>"
+      }
+    ]
+  },
+  {
+    "path": "Chrystel_Diener",
+    "name": "Chrystel Diener",
+    "work": "Herboriste-Naturopathe",
+    "smallText": "Le rôle de l’Herboriste/Naturopathe ou Herbaliste, en tant qu’éducateur de santé, est de vous accompagner par ses conseils vers le rétablissement de cet équilibre que constitue la Santé. Ces pratiques visent à soutenir le corps en réharmonisant nos systèmes biologiques.",
+    "image": "Chrystel_Diener",
+    "phone": "0664257973",
+    "email": "cdiener@arbre-o-essences.fr",
+    "tariffs": [
+      {
+        "name": "Bilan de santé",
+        "duration": "(1h30)",
+        "price": 50,
+        "description": "45 euros pour les demandeurs d’emploi"
+      },
+      {
+        "name": "Suivi",
+        "duration": "",
+        "price": 45,
+        "description": "40 euros pour les demandeurs d’emploi"
+      },
+      {
+        "name": "Séance de Réflexologie plantaire",
+        "duration": "(1h)",
+        "price": 50,
+        "description": "45 euros pour les demandeurs d’emploi"
+      }
+    ],
+    "slots": [
+      {
+        "name": "Sant’équilibre",
+        "slots": [
+          "Lundi de 9h à 18h",
+          "Mardi de 9h à 18h30",
+          "Jeudi de 9h à 18h30"
+        ]
+      },
+      {
+        "name": "Domicile",
+        "slots": ["Vendredi de 9h à 18h"]
+      }
+    ],
+    "description": [
+      {
+        "title": "Chrystel Diener, Herboriste-Naturopathe",
+        "text": "<i><p>Je suis praticienne en Herboristerie Naturopathique.</p> <p>« <b>L'Herboristerie </b>» repose sur le savoir ancestral des plantes médicinales, leurs propriétés, leurs applications thérapeutiques, leurs contre-indications ainsi que leurs interactions.</p></i>"
+      },
+      {
+        "title": "Les herboristes en France, pour la petite histoire...",
+        "text": "<p>Le métier d'herboriste a été reconnu pour la première fois en France en janvier 1312.</p><p>Durant l'empire, Fourcroy (chimiste) veut rénover la profession d' apothicaire et ouvrir leur monopole, mais il n'y parvient pas. Au XIX e siècle, avec l'apparition des vaccins et d'un grand nombre de médicaments de synthèse, l'herboristerie recule, souvent présentée comme désuète et associée à une civilisation paysanne jugée dépassée, au profit de l'industrie pharmaceutique. Certains médecins continuent pourtant à défendre la médecine des simples et les savoirs traditionnels.</p><p>Alors qu'il existe encore en France environ 4 à 5 000 herboristes (souvent des femmes, non représentées et non défendues politiquement), aucun diplôme officiel d' herboriste n'est délivré depuis la loi du 11 septembre 1941 en France. Cette loi organise l'industrialisation de la pharmacie, et transforme (sur le modèle allemand) le marché de manière à permettre à la finance d'entrer dans le capital du secteur de la pharmacie.</p><p>C'est le chef de l' État français <b>Philippe Pétain</b> qui supprime le diplôme, en répondant à une demande déjà ancienne de certains pharmaciens et de l'industrie pharmaceutique. Le métier d'herboriste a donc de fait pratiquement disparu en France. De 4 500 herboristes en 1941 , il ne reste qu'une dizaine d'herboristeries en France, la plus ancienne étant la pharmacie herboristerie du Père Blaize à Marseille fondée en 1815. Cette situation contraste fortement avec l'Allemagne, la Belgique ou l' Italie , on l'on compte encore plusieurs milliers d'herboristes.</p><p>C’est pour cela qu’actuellement nous sommes formés au Diplôme <b>d’Herbalisme</b> pour conserver les savoirs de nos ancêtres et prétendre bientôt, nous l’espérons, à la reconnaissance de nos compétences et de l’officialisation de notre Diplôme.</p>"
+      },
+      {
+        "title": "La Naturopathie selon le Larousse Médical",
+        "text": "<p>La Naturopathie est un ensemble de pratiques visant à aider l’organisme à guérir de lui-même, par des moyens exclusivement naturels. Elle repose sur une théorie selon laquelle la force vitale de l’organisme permet à celui-ci de défendre et de guérir spontanément. Elle consiste donc à renforcer les réactions de défense de l’organisme par diverses mesures d’hygiène ».</p><p>Le rôle de <b>l’Herboriste/Naturopathe ou Herbaliste</b>, en tant qu’éducateur de santé, est de vous accompagner par ses conseils vers le rétablissement de cet équilibre que constitue la Santé. Ces pratiques visent à soutenir le corps en réharmonisant nos systèmes biologiques.</p><p>Par une approche globale de la personne, je vous propose de vous prémunir contre les déséquilibres internes de l'organisme.</p><p>L'utilisation de la phytothérapie, l'aromathérapie, l'hydrolathérapie, la gémmothérapie, la nutrition et une hygiène de vie équilibrée peuvent par leurs effets synergiques traiter différents troubles fonctionnels chroniques :</p><ul><li>Urinaires</li><li>Digestifs</li><li>Ostéo-articulaires</li><li>Circulatoires</li><li>ORL</li><li>Hormonaux (ménopause, syndrome prémenstruel)</li><li>Stress chronique</li><li>Troubles du sommeil</li><li>Immunitaire</li><li>Maladies auto immunes</li><li>Enfants</li><li>Femmes enceintes</li><li>Addictions</li></ul>"
+      },
+      {
+        "title": "Déroulement d’une séance",
+        "text": "<p>Une première séance se déroule entre 1h et 1h30, elle commence par une écoute bienveillante suivie d’un questionnaire approfondi (anamnèse), pour identifier vos attentes et en savoir plus sur votre histoire, antécédents familiaux et personnels, traitements en cours, mode de vie : Alimentation, profession, exercice physique, état émotionnel, environnemental etc. Ensuite après analyse de votre bilan, je vous propose des soins appropriés et personnalisés.</p><p>Une visite ne vous dispense aucunement du suivi médical habituel.</p><p>L'Herboriste / Naturopathe ne pose pas de diagnostic, ne prescrit aucun médicament et ne formule aucune demande d’interruption ou de modification d’un traitement médical.</p>"
+      },
+      {
+        "title": "Je pratique également la réflexologie plantaire.",
+        "text": "<p>« <b>La réflexologie </b>» trouve ses racines au cœur d’anciennes civilisations.</p><p>Le plus ancien témoignage de cette pratique remonte à environ 2 500 ans avant JC en Égypte. Elle était pratiquée également en Inde, en Chine et chez les Incas.</p><p>Les Indiens Cherokees ont transmis de génération en génération cette technique car, selon eux, nos pieds sont nos liens avec la terre et les énergies qui la traversent et contribueraient au maintien de l’équilibre physique, mental et spirituel.</p><p>En Occident, la réflexologie est utilisée depuis le Moyen-âge mais il faut attendre le XXème siècle pour que médecins ou chercheurs s’y intéressent plus sérieusement. On considère Mme Eunice Ingham comme étant la « <b>mère </b>» de la réflexologie moderne.</p><p>réflexologie est une approche non intrusive, à la fois douce et profonde, à l’écoute dulangage du corps par l’intermédiaire des pieds. Elle a pour but de stimuler les mécanismes d’auto-guérison du corps pour rétablir et maintenir l’homéostasie (équilibre naturel du corps). Cette technique consiste à exercer des pressions sur des zones précises du pied appelées «<b>zones réflexes</b>», elle est à la fois préventive, curative et relaxante. Chaque zone réflexe correspond à un organe, une glande ou une partie du corps.</p><p>Un toucher spécifique sur ces zones permet de rétablir l’équilibre dans les parties du corps correspondantes.</p><p>Les séances de réflexologie débutent par une écoute attentive. Ensuite je vous propose une séance « <b>au choix</b> » :</p><ul><li>Aux Huiles essentielles (apaisantes, relaxantes, stimulantes...)</li><li>Aux Huiles végétales</li><li>Avec musique de relaxation</li></ul><p>Elles se terminent par une compresse d’hydrolat rafraîchissante (Lavande officinale, géranium rosa, mélisse officinale...)</p><p>Une séance de réflexologie plantaire ne dispense pas d'une consultation médicale.</p>"
+      },
+      {
+        "title": "Diplômes",
+        "text": "<ul><li>Diplômée de l’École Lyonnaise de Plantes Médicinales et des Savoirs Naturels</li><li>Diplômée de' l Institut Ling Dao</li></ul>"
+      },
+      {
+        "title": "Mon parcours",
+        "text": "<p>Il a commencé il y a une vingtaine d'années comme éducatrice sportive spécialisé dans le handicap physique.</p><p>Étant passionnée par la nature, l’humain et le mieux être, j’ai suivi une formation pendant quatre années à l'École Lyonnaise de Plantes Médicinales et des savoirs naturels.</p><p>J'ai complété celle-ci en me formant comme distillatrice de plantes aromatiques et médicinales, ainsi qu'en réflexologie plantaire.</p><p>Depuis 3 ans j'exerce comme Herboriste/Naturopathe avec une équipe de praticiens comme bénévole au Dispensaire de Soins Naturels et d’Éducation à la Santé dans la Vallée de l'Eyrieux.</p><p>Je suis aussi agricultrice, je cultive et produit des hydrolats et sirops à visé thérapeutique.</p>"
+      }
+    ]
+  },
+  {
+    "path": "Sylvie_Bonnassieux",
+    "name": "Sylvie Bonnassieux",
+    "work": "Réflexologue",
+    "smallText": "Issue des métiers de l'éducation populaire, j'ai travaillé avec des publics très variés. L'accompagnement des personnes et de leurs projets est au cœur de ma pratique professionnelle. Après une vie au service des associations, j'ai voulu poursuivre cette démarche vers un accueil individualisé, et proposer des soins avec mes mains.",
+    "image": "Sylvie_Bonnassieux",
+    "phone": "07 71 85 55 88",
+    "email": "",
+    "tariffs": [
+      {
+        "name": "Une séance pour accéder à une DÉTENTE PROFONDE",
+        "duration": "(1h 1/2 pour la 1 ère séance)",
+        "price": 50,
+        "description": "35€ enfant – 12 ans"
+      },
+      {
+        "name": "Un accompagnement sur 5 séances pour retrouver ÉQUILIBRE et VITALITÉ",
+        "duration": "(5 séances de 1h00)",
+        "price": 200,
+        "description": "150€ enfant – 12 ans"
+      }
+    ],
+    "slots": [],
+    "description": [
+      {
+        "title": "Une pratique naturelle, ancienne, et que l'on retrouve sur tous les continents.",
+        "text": "<p>La réflexologie telle que nous la pratiquons ici est issue de la méthode INGHAM, une physiologiste du début du 20 ème siècle.</p><p>Le massage en réflexologie plantaire se pratique sur les pieds, où plus de 7 000 terminaisons nerveuses (par pied !) dessinent une cartographie de zones réflexes en lien avec les organes et les différentes parties du corps.</p><p>C'est une technique manuelle et naturelle, et que l'on qualifie d'holistique, c'est-à-dire qu'elle prend en compte la globalité de la personne.</p><p>Elle est naturelle parce qu'elle stimule le corps pour qu'il récrée ou maintienne naturellement son équilibre.</p><p>La réflexologie permet d'intervenir, de façon agréable, en prévention comme sur des déséquilibres avérés. Elle se situe dans les soins complémentaires ce qui signifie qu'elle peut avantageusement renforcer des thérapies en cours.</p><p>La réflexologie plantaire ne se substitue pas à un traitement médical ni à l'avis d'un médecin.</p>"
+      },
+      {
+        "title": "Stimulation, apaisement, équilibre",
+        "text": "<p>Le massage en réflexologie apporte une détente profonde et peut générer plus grande circulation dans les organes, favoriser l'élimination des déchets, ce qui permet à l'organisme de retrouver sa vitalité</p><p>Les gestes de stimulation et d'apaisement sont une proposition faite au corps pour se rééquilibrer par lui-même. On note des effets notables dès les premières séances. Plusieurs séances sont nécessaires pour observer une évolution.</p>"
+      },
+      {
+        "title": "Pour toutes et tous",
+        "text": "<p>Les nourrissons, les enfants, les adolescents, les adultes, les personnes âgées peuvent apprécier un soin en réflexologie pour améliorer des situations de :</p><ul><li>stress, fatigue et anxiété</li><li>troubles du sommeil, douleurs chroniques (dos, migraines, crampes, ...)</li><li>déséquilibres de la sphère ORL, troubles de la digestion, manifestations de la peau</li><li>bien-être durant la grossesse, maternité, digestion et sommeil des tout-petits</li><li>support de soins, convalescence</li></ul><p>Les contre-indications : phlébites et thromboses, blessures au pied</p>"
+      },
+      {
+        "title": "Comment ?",
+        "text": "<p>Chaque séance débute par un temps d'échange pour prendre en compte votre situation et adapter à votre besoin. Puis vous vous installez dans un fauteuil relax pour vous détendre et recevoir un massage des pieds. J'utilise du talc pour faciliter les mouvements.</p><p>Prévoir environ une heure (1h 1/2 pour la 1 ère séance)</p><p>Pensez à la carte cadeau pour prendre soin de ceux que vous aimez.</p>"
+      },
+      {
+        "title": "Mon parcours",
+        "text": "<p>Issue des métiers de l'éducation populaire, j'ai travaillé avec des publics très variés. L'accompagnement des personnes et de leurs projets est au cœur de ma pratique professionnelle.</p><p>Après une vie au service des associations, j'ai voulu poursuivre cette démarche vers un accueil individualisé, et proposer des soins avec mes mains.</p><p>J'ai choisi de me former en réflexologie plantaire parce que cette pratique est simple et efficace pour aider à détendre. J'ai suivi le cursus de l'école E.T.R.E.! qui dispense une formation théorique et pratique agréée Label Qualité DATADOCKS. Désormais certifiée, je suis membre de la Fédération Française de Réflexologie.</p><p>Formations complémentaires</p><ul><li>La réflexologie pédiatrique</li><li>Réflexologie et cancer</li><li>Réflexologie émotionnelle</li></ul>"
+      }
+    ]
+  }
+]

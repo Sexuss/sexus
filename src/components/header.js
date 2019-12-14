@@ -6,7 +6,9 @@ import "bootstrap/dist/css/bootstrap.css"
 import "../css/style.css"
 import SEO from "../components/seo"
 import logo from "../images/oneshopper-logo.png"
-
+import Header from "../components/Header/Header.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+import HeaderLinks from "../components/Header/HeaderLinks.jsx";
 
 
 const Header = ({ siteTitle }) => (

@@ -8,10 +8,15 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
-import Footer from "./footer"
+import "../css/font-awesome.css"
+import "bootstrap/dist/css/bootstrap.css"
+import "../css/style.css"
+import logo from "../images/oneshopper-logo.png"
+import SEO from "../components/seo"
 import "./layout.css"
+import Header from "../components/Header/Header.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+import HeaderLinks from "../components/Header/HeaderLinks.jsx";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -26,7 +31,17 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
+          <Header
+              color="transparent"
+              routes={[]}
+              brand="Sexus"
+              rightLinks={<HeaderLinks/>}
+              fixed
+              changeColorOnScroll={{
+                  height: 400,
+                  color: "white"
+              }}
+          />
         <div>
           <main>{children}</main>
         </div>
