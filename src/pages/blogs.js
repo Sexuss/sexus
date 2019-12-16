@@ -36,10 +36,13 @@ class BlogsPost extends React.Component {
 
     const { data } = this.props;
     const { NoOfPost } = this.state;
+      let keywords = [`sexualité`, `orgasme`, `feminisme`];
+      data.data.allContentfulBlogs.edges.map((a) => a.node.tags.map((t) => keywords.push(t.tag)));
 
     return (
       <React.Fragment>
-        <ul className="blog-list" onScroll={this.onScrollEvent}>
+        <SEO title="Blog" keywords={keywords}/>
+        <ul className="blog-list" style={{paddingTop: 100}} onScroll={this.onScrollEvent}>
           {data.data.allContentfulBlogs.edges.slice(0, NoOfPost).map(items => (
             <li>
               <div className="post-item template-square columned">
@@ -56,7 +59,7 @@ class BlogsPost extends React.Component {
                     <Img sizes={items.node.author.photo.fluid} />
                     <strong className="name">{items.node.author.name}</strong>
                   </div>
-                  <p>{items.node.description.childMarkdownRemark.excerpt}</p>
+                  <p>{items.node.subHeader}</p>
 
                 </div>
               </div>
@@ -88,6 +91,10 @@ export const query = graphql`
             id
             title
             slug
+            subHeader
+            tags {
+                tag
+            }
             publicData(formatString: "MMMM D, YYYY")
             author {
               name

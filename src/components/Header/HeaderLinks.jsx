@@ -28,44 +28,48 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
           <Link to="/blogs">
               <Button color="transparent"
-                      className={classes.navLink}>
-                Blogs
+                      className={classes.navLink}
+                      style={{color: 'pink'}}  >
+                Les articles
             </Button>
           </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
           <Link to="/store">
               <Button color="transparent"
+                      style={{color: 'pink'}}
                       className={classes.navLink}>
-                  Store
+                  Le shop
               </Button>
           </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
           <Link to="/about">
               <Button color="transparent"
+                      style={{color: 'pink'}}
                       className={classes.navLink}>
-                  About
+                  À propo du projet
               </Button>
           </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
           <Link to="/contact-us">
               <Button color="transparent"
+                      style={{color: 'pink'}}
                       className={classes.navLink}>
-                  Contact
+                  Nous contacter
               </Button>
           </Link>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-twitter"
-          title="Follow us on twitter"
+          title="Suivez-nous sur twitter"
           placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/CreativeTim"
+            href="https://twitter.com/Sexus47352406"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -77,13 +81,13 @@ function HeaderLinks({ ...props }) {
       <ListItem className={classes.listItem}>
         <Tooltip
           id="instagram-facebook"
-          title="Follow us on facebook"
+          title="Suivez-nous sur facebook"
           placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/CreativeTim"
+            href="https://www.facebook.com/Sexus-105005727668518"
             target="_blank"
             className={classes.navLink}
           >
@@ -91,23 +95,23 @@ function HeaderLinks({ ...props }) {
           </Button>
         </Tooltip>
       </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <Button
-            color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial"
-            target="_blank"
-            className={classes.navLink}
-          >
-            <FaInstagram/>
-          </Button>
-        </Tooltip>
-      </ListItem>
+      {/*<ListItem className={classes.listItem}>*/}
+        {/*<Tooltip*/}
+          {/*id="instagram-tooltip"*/}
+          {/*title="Follow us on instagram"*/}
+          {/*placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}*/}
+          {/*classes={{ tooltip: classes.tooltip }}*/}
+        {/*>*/}
+          {/*<Button*/}
+            {/*color="transparent"*/}
+            {/*href="https://www.instagram.com/CreativeTimOfficial"*/}
+            {/*target="_blank"*/}
+            {/*className={classes.navLink}*/}
+          {/*>*/}
+            {/*<FaInstagram/>*/}
+          {/*</Button>*/}
+        {/*</Tooltip>*/}
+      {/*</ListItem>*/}
     </List>
   );
 }

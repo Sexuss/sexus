@@ -37,21 +37,21 @@ const ProductDetails = data => (
         />
         <div className="row buynowinner">
           <div className="col-sm-2">
-            <span className="price">Price: ${data.data.contentfulProduct.price}</span>
+            <span className="price">Prix: {data.data.contentfulProduct.price} €</span>
           </div>
-          <div className="col-sm-10 text-left">
-            <a
-              href="#"
-              className="Product snipcart-add-item"
-              data-item-id={data.data.contentfulProduct.slug}
-              data-item-price={data.data.contentfulProduct.price}
-              data-item-image={data.data.contentfulProduct.image === null ? "" : data.data.contentfulProduct.image.fixed.src}
-              data-item-name={data.data.contentfulProduct.name}
-              data-item-url={`/`}
-            >
-              <i className="fas fa-tags" />
-              Buy Now
-            </a>
+          <div className="col-sm-10 text-left site-Banner Banner-details">
+              <a
+                  href={data.data.contentfulProduct.link}
+                  target="_blank"
+                  className="Product button"
+                  // data-item-id={items.node.slug}
+                  // data-item-price={items.node.price}
+                  // data-item-image={items.node.image === null ? "" : items.node.image.fluid.src}
+                  // data-item-name={items.node.name}
+                  // data-item-url={`/`}
+              >
+                  <i className="fas fa-shopping-bag" /> Acheter
+              </a>
           </div>
         </div>
         <div
@@ -70,6 +70,7 @@ export const query = graphql`
   query ProductDetailsQuery($slug: String!) {
       contentfulProduct(slug: {eq: $slug }) {
       id
+      link
       name
     slug
       image {

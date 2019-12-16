@@ -61,17 +61,18 @@ class IndexPost extends React.Component {
                       <span className="price">${items.node.price}</span>
                     </div>
                     <div className="col-sm-8 text-right align-self-center">
-                      <a
-                        href="#"
-                        className="Product snipcart-add-item"
-                        data-item-id={items.node.slug}
-                        data-item-price={items.node.price}
-                        data-item-image={items.node.image === null ? "" : items.node.image.fixed.src}
-                        data-item-name={items.node.name}
-                        data-item-url={`/`}
-                      >
-                        <i className="fas fa-shopping-bag" />Add to Cart
-                    </a>
+                        <a
+                            href={items.node.link}
+                            target="_blank"
+                            className="Product button"
+                            // data-item-id={items.node.slug}
+                            // data-item-price={items.node.price}
+                            // data-item-image={items.node.image === null ? "" : items.node.image.fluid.src}
+                            // data-item-name={items.node.name}
+                            // data-item-url={`/`}
+                        >
+                            <i className="fas fa-shopping-bag" /> Acheter
+                        </a>
                     </div>
                   </div>
                 </div>
@@ -88,7 +89,7 @@ const IndexPage = data => (
 
   <Layout>
     <SEO title="Store" keywords={[`gatsby`, `application`, `react`]} />
-    <div className="container store-page">
+    <div className="container store-page" style={{marginTop: 100}}>
       <IndexPost data={data}></IndexPost>
     </div>
   </Layout>
@@ -105,6 +106,7 @@ export const query = graphql`
           name
           slug
           rating
+          link
           image {
             fixed(width: 1000, height: 500) {
               width
