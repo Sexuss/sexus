@@ -12,7 +12,7 @@ export default class LatestBlogs extends React.Component {
                 <div className="text-center"><h2 className="with-underline">{title ? title : 'Derniers articles'}</h2></div>
                 <div className="row product-main">
                     {data.edges.map(items => (
-                        <div className="Catalogue__item col-sm-12 col-md-6 col-lg-4" key={items.node.id}>
+                        <div className="Catalogue__item col-sm-12 col-md-6 col-lg-4" key={items.node.id} style={{display: 'flex'}}>
                             <div className="details_List">
                                 {items.node.featureImage === null ? <div className="no-image">No Image</div> : <Img sizes={items.node.featureImage.fluid} />}
 
@@ -24,7 +24,7 @@ export default class LatestBlogs extends React.Component {
                                     <p>{items.node.subHeader}</p>
                                     <p>
                                         { items.node.tags.map((tag) => {
-                                            return <Link to={'/sujet/' + tag.tag} style={{padding: 2}}><i> {tag.tag} </i></Link>
+                                            return <Link to={'/sujet/' + tag.tag} style={{padding: 2, color: '#007bff!important'}}><i> {tag.tag} </i></Link>
                                         })}
                                     </p>
                                 </div>

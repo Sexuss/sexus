@@ -14,6 +14,8 @@ import HeaderLinks from "../components/Header/HeaderLinks.jsx";
 import withStyles from "@material-ui/core/styles/withStyles";
 import landingPageStyle from "../assets/jss/material-kit-react/views/landingPage.jsx";
 import randomColor from 'randomcolor';
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
+
 
 class IndexPost extends React.Component {
   constructor(props) {
@@ -29,7 +31,7 @@ class IndexPost extends React.Component {
       <React.Fragment>
         <div className="row product-main">
           {data.data.allContentfulProduct.edges.map(items => (
-            <div className="Catalogue__item col-sm-12 col-md-6 col-lg-4" key={items.node.id}>
+            <div className="Catalogue__item col-sm-12 col-md-6 col-lg-4" key={items.node.id} style={{display: 'flex'}}>
               <div className="details_List">
                 {items.node.image === null ? <div className="no-image">No Image</div> : <Img sizes={items.node.image.fluid} />}
 
@@ -49,7 +51,7 @@ class IndexPost extends React.Component {
                       <span className="price">${items.node.price}</span>
                     </div>
                     <div className="col-sm-8 text-right align-self-center site-Banner Banner-details">
-                      <a
+                      <OutboundLink
                         href={items.node.link}
                         target="_blank"
                         className="Product button"
@@ -59,8 +61,8 @@ class IndexPost extends React.Component {
                         // data-item-name={items.node.name}
                         // data-item-url={`/`}
                       >
-                        <i className="fas fa-shopping-bag" /> Acheter
-                    </a>
+                        <i className="fas fa-shopping-bag" /> Voir plus
+                    </OutboundLink>
                     </div>
                   </div>
                 </div>
@@ -86,44 +88,34 @@ const IndexPage = data => {
   // const {classes} = this.props;
     let keywords = [`sexualité`, `orgasme`, `feminisme`];
     data.data.allContentfulTags.edges.map((t) => keywords.push(t.node.tag));
-    return <div>
-        <Header
-            color="transparent"
-            routes={[]}
-            brand="Sexus"
-            rightLinks={<HeaderLinks/>}
-            fixed
-            changeColorOnScroll={{
-                height: 400,
-                color: "white"
-            }}
-        />
-        <SEO title="Home" keywords={keywords}/>
+    return <Layout>
+        <SEO title="Bienvenu chez Sexus" keywords={keywords}/>
         <Banner BannerData={data.data.allContentfulHeaderBanner.edges}/>
-        <div className="container" >
-            <LatestBlogs data={data.data.allContentfulBlogs}/>
-            <div className="text-center"><h2 className="with-underline">Les tendances</h2></div>
-            <div style={{maxWidth: 600, margin: 'auto', textAlign: 'center', padding: 20}}>
-                { data.data.allContentfulTags.edges.map((tag) => {
-                    const counts = data.data.allContentfulTags.edges.map(( tag ) => tag.node.blogs.length);
-                    const min = Math.min(...counts);
-                    const max = Math.max(...counts);
-                    let fontSize = fontSizeConverter(tag.node.blogs.length, min, max, 20, 35 );
-                    return <Link to={'/sujet/' + tag.node.tag} style={{color: randomColor(),
-                        fontSize: fontSize, padding: 5}}>
-                        {tag.node.tag}
-                        </Link>
-                })}
-            </div>
+        <LatestBlogs data={data.data.allContentfulBlogs}/>
+        <div className="text-center"><h2 className="with-underline">Les tendances</h2></div>
+        <div style={{maxWidth: 600, margin: 'auto', textAlign: 'center', padding: 20}}>
+            { data.data.allContentfulTags.edges.map((tag) => {
+                const counts = data.data.allContentfulTags.edges.map(( t ) => t.node.blogs ? t.node.blogs.length : 1);
+                const min = Math.min(...counts);
+                const max = Math.max(...counts);
+                let fontSize = fontSizeConverter(tag.node.blogs ? tag.node.blogs.length : 1, min, max, 20, 35 );
+                const color = randomColor();
+                return <Link to={'/sujet/' + tag.node.tag}
+                             key={tag.node.id}
+                             style={{fontSize: fontSize, color: color, padding: 5}}>
+                    {tag.node.tag}
+                    </Link>
+            })}
+        </div>
+        <div className={"container"}>
             <div className="text-center"><h2 className="with-underline">Derniers produits</h2></div>
             <IndexPost data={data}></IndexPost>
             <Contact/>
         </div>
-        <Footer />
-    </div>
+    </Layout>
 }
 
-export default withStyles(landingPageStyle)(IndexPage)
+export default IndexPage
 
 export const query = graphql`
   query AboutQuery {

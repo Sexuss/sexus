@@ -33,10 +33,8 @@ const Contact = () => (
     <div className="Contact-us">
         <div className="text-center">
             <h2 className="with-underline">Nous contacter</h2>
-            <p>❤️ Un retour, un mot, une suggestion, tu souhaites contribuer au projet ? Contact nous ! ❤️</p>
-            <small>Sexus est un blog destiné à l'échange, le partage, l'experimentation des sexualités dans l'écoute
-                et le respect de chacun️, nous serions trés hereux d'avoir tes retours et que tu partage avec nous
-             tes suggestion.</small>
+            <p>❤️ Un retour, un mot, une suggestion, tu souhaites contribuer au projet ? Contacte-nous ! ❤️</p>
+            <small>Sexus est un blog destiné à l'échange, le partage, l'expérimentation des sexualités dans l'écoute et le respect de chacun, nous serions très heureux d'avoir tes retours et que tu partages avec nous tes suggestions.</small>
         </div>
         <div className="container">
             {/* To make form work, use your own formspree credentials in action="" */}

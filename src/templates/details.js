@@ -4,10 +4,10 @@ import StarRatingComponent from 'react-star-rating-component';
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 const ProductDetails = data => (
   < Layout >
-
     <SEO title={data.data.contentfulProduct.name} keywords={[`gatsby`, `application`, `react`]} />
     <div className="container details-page">
       <div className="product-details">
@@ -40,7 +40,7 @@ const ProductDetails = data => (
             <span className="price">Prix: {data.data.contentfulProduct.price} €</span>
           </div>
           <div className="col-sm-10 text-left site-Banner Banner-details">
-              <a
+              <OutboundLink
                   href={data.data.contentfulProduct.link}
                   target="_blank"
                   className="Product button"
@@ -51,7 +51,7 @@ const ProductDetails = data => (
                   // data-item-url={`/`}
               >
                   <i className="fas fa-shopping-bag" /> Acheter
-              </a>
+              </OutboundLink>
           </div>
         </div>
         <div
@@ -67,8 +67,8 @@ const ProductDetails = data => (
 export default ProductDetails
 
 export const query = graphql`
-  query ProductDetailsQuery($slug: String!) {
-      contentfulProduct(slug: {eq: $slug }) {
+  query ProductDetailsQuery($id: String!) {
+      contentfulProduct(id: {eq: $id }) {
       id
       link
       name

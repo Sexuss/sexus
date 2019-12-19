@@ -1,7 +1,7 @@
 {
   "name": "Sexus",
   "private": true,
-  "description": "Le blog sur la sexualité, la découverte des plaisirs, le partage des experiences",
+  "description": "Le blog sur les sexualités, la découverte des plaisirs, le partage des expériences",
   "version": "0.1.0",
   "author": "Sexus <sexusssssssss@gmail.com>",
   "dependencies": {
@@ -24,6 +24,7 @@
     "gatsby-plugin-postcss": "^2.1.18",
     "gatsby-plugin-react-helmet": "^3.1.18",
     "gatsby-plugin-sharp": "^2.3.7",
+    "gatsby-plugin-sitemap": "^2.2.24",
     "gatsby-plugin-snipcart": "^1.0.6",
     "gatsby-source-contentful": "^2.1.69",
     "gatsby-source-filesystem": "^2.1.42",

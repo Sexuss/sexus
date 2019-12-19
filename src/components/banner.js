@@ -29,7 +29,7 @@ export default class Banner extends React.Component {
                   <div>
                     <span className="sub-title">{items.node.subHeading}</span>
                     <h1>{items.node.title}</h1>
-                    <Link to={items.node.buttonLink}>{items.node.buttonText}</Link>
+                    <Link to={items.node.buttonLink} style={{color: 'white!important'}}>{items.node.buttonText}</Link>
                   </div>
                 </div>
               </div>
